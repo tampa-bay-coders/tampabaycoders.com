@@ -130,5 +130,5 @@ dist
 .pnp.*
 
 # other stuff
-tampabaycoders-dotcom/.firebase/*.cache
+.firebase/
 **/.DS_Store
