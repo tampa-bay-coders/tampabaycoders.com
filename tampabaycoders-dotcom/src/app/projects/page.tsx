@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 import styles from "../page.module.css";
 
 export default function Projects() {
@@ -33,7 +34,7 @@ export default function Projects() {
                 </div>
             </main>
             <footer className={styles.footer}>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
             </footer>
         </div>
     )

@@ -19,7 +19,7 @@ export default function Contact() {
                 </ul>
             </main>
             <footer className={styles.footer}>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
             </footer>
         </div>
     )
