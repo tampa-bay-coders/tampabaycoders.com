@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from 'next/link';
 
 export default function Home() {
     return (
@@ -29,18 +30,18 @@ export default function Home() {
                     <li>Training and Support</li>
                 </ul>
                 <div className={styles.ctas}>
-                    <a className={styles.primary} href="/contact">Contact Us</a>
-                    <a
+                    <Link className={styles.primary} href="/contact">Contact Us</Link>
+                    <Link
                         href="/projects"
                         className={styles.secondary}
                     >
                         Projects
-                    </a>
+                    </Link>
                 </div>
             </main>
             <footer className={styles.footer}>
                 <a
-                    href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+                    href="https://pickaxe.media"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
