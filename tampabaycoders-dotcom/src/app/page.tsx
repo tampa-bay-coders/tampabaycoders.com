@@ -15,8 +15,18 @@ export default function Home() {
                 />
                 <h1 className={styles.title}>Tampa Bay Coders</h1>
                 <ul>
-                    <li>Custom software development</li>
-                    <li>Managed SaaS hosting</li>
+                    <li>Software Development & Engineering</li>
+                    <li>Cloud Solutions</li>
+                    <li>Cybersecurity</li>
+                    <li>Data & Analytics</li>
+                    <li>Technology Advisory</li>
+                    <li>Project Management</li>
+                    <li>Business Analysis</li>
+                    <li>UI/UX Design</li>
+                    <li>Automation</li>
+                    <li>Industry-Specific Solutions</li>
+                    <li>System Integration</li>
+                    <li>Training and Support</li>
                 </ul>
                 <div className={styles.ctas}>
                     <a className={styles.primary} href="/contact">Contact Us</a>
