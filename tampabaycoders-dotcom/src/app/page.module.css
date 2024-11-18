@@ -6,7 +6,10 @@
     --button-primary-hover: #383838;
     --button-secondary-hover: #f2f2f2;
 
-    --tbc-orange: #ff5400;
+    --tbc-orange-rgb: 255, 84, 0;
+    --tbc-orange: rgb(var(--tbc-orange-rgb));
+    --tbc-orange-alpha-200: rgba(var(--tbc-orange-rgb), 0.08);
+    --tbc-orange-alpha-100: rgba(var(--tbc-orange-rgb), 0.05);
 
     display: grid;
     grid-template-rows: 20px 1fr 20px;
@@ -96,9 +99,14 @@
     font-weight: 500;
 }
 
+.ctas img {
+    margin-right: .5em;
+}
+
 a.primary {
     background: var(--foreground);
     color: var(--background);
+    min-width: 180px;
     gap: 8px;
 }
 
@@ -176,6 +184,7 @@ a.secondary {
     }
 }
 
+/*
 @media (prefers-color-scheme: dark) {
 
     .logo,
@@ -183,3 +192,4 @@ a.secondary {
         filter: invert();
     }
 }
+*/
