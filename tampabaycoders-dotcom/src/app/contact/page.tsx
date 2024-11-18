@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 import styles from "../page.module.css";
 
 export default function Contact() {
@@ -14,9 +15,11 @@ export default function Contact() {
                     priority
                 />
                 <h1 className={styles.title}>Contact Us</h1>
-                <ul>
-                    <li>Contact form coming soon</li>
-                </ul>
+                <p>
+                    We are currently busy working on projects to our fullest capacity,
+                    and therefore are not accepting new project requests at this time.
+                    We apologize for the inconvenience.
+                </p>
             </main>
             <footer className={styles.footer}>
                 <Link href="/">Home</Link>
